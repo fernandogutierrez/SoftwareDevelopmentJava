@@ -30,9 +30,7 @@ public class Main {
 				System.exit(0);
 			}
             clearConsole();
-            println("--------------------------------");
             whackAMole.printGridToUser();
-
 			whackAMole.whack(x, y);
 		}
 	}

@@ -10,7 +10,7 @@ public class WhackAMole {
 	public WhackAMole(int numAttemps, int gridDimesion) {
 		attemptsLeft = numAttemps;
 		moleGrid = new char[gridDimesion][gridDimesion];
-		molesLeft = gridDimesion; // we are going to have 10 moles if we have a grid with dimension of 10X10
+		molesLeft = gridDimesion;
 		fillGrid();	
 		placeMoles(molesLeft, gridDimesion);
 	}
