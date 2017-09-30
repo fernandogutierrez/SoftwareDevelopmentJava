@@ -25,7 +25,7 @@ public class Main {
 
 			if(whackAMole.areThereMoles() == false)
 			{
-				println("You win the game!!!. Final Score: " + whackAMole.getScore());
+				println("You win the game!!!. Final Score: " + whackAMole.score);
 				whackAMole.printGrid();
 				System.exit(0);
 			}

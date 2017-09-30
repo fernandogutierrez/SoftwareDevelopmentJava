@@ -1,8 +1,8 @@
 import java.util.Arrays;
 
 public class WhackAMole {
-	private int score, molesLeft, attemptsLeft;
-	private char[][] moleGrid;
+	int score, molesLeft, attemptsLeft;
+	char[][] moleGrid;
 	private static final char MOLE = 'M';
 	private static final char WHACKED_MOLE = 'W';
 	private static final char UNKNOWN_CELL = '*';
@@ -46,11 +46,6 @@ public class WhackAMole {
 			return true;
 		}
 		return false;
-	}
-
-	public int getScore()
-	{
-		return score;
 	}
 
 	public boolean areThereAvailableAttemps()
